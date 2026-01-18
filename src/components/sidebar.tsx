@@ -16,25 +16,17 @@ export function Sidebar() {
               pathname === "/" ? "opacity-100" : "opacity-50 hover:opacity-100"
             }`}
           >
-            Home
+            home
           </a>
           <a
-            href="#writing"
-            className="text-sm font-semibold text-black opacity-50 hover:opacity-100 transition-opacity"
+            href="/trips"
+            className={`text-sm font-semibold text-black transition-opacity ${
+              pathname === "/trips"
+                ? "opacity-100"
+                : "opacity-50 hover:opacity-100"
+            }`}
           >
-            Writing
-          </a>
-          <a
-            href="#projects"
-            className="text-sm font-semibold text-black opacity-50 hover:opacity-100 transition-opacity"
-          >
-            Projects
-          </a>
-          <a
-            href="#about"
-            className="text-sm font-semibold text-black opacity-50 hover:opacity-100 transition-opacity"
-          >
-            About
+            album
           </a>
         </nav>
       </div>

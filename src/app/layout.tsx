@@ -17,8 +17,8 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Personal Research",
-  description: "Thinking, building, exploring",
+  title: "ian ren",
+  description: "full stack engineer at hived",
 };
 
 export default function RootLayout({
@@ -28,9 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${serif.variable} ${sans.variable} antialiased`}
-      >
+      <body className={`${serif.variable} ${sans.variable} antialiased`}>
         <div className="bg-black min-h-screen">
           <div className="bg-white flex rounded-b-xl relative z-10">
             <div className="fixed left-0 top-0 px-7 sm:px-8 md:px-10 lg:px-16 pt-20 md:pt-50">

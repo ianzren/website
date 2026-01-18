@@ -1,21 +1,19 @@
 type SectionProps = {
-  number: string;
   title: string;
-  children: React.ReactNode;
+  items: string[];
 };
 
-export function Section({ number, title, children }: SectionProps) {
+export function Section({ title, items }: SectionProps) {
   return (
     <section className="space-y-4">
-      <div className="flex items-baseline gap-6">
-        <span className="text-xs text-[#525252] font-mono">{number}</span>
-        <h2 className="text-2xl font-semibold text-black">{title}</h2>
-      </div>
-      <div className="pl-14">
-        <p className="text-base text-black max-w-xl">
-          {children}
-        </p>
-      </div>
+      <h2 className="text-2xl font-semibold text-black">{title}</h2>
+      <ul className="space-y-2 list-disc list-inside">
+        {items.map((item, index) => (
+          <li key={index} className="text-base text-black/80">
+            {item}
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
