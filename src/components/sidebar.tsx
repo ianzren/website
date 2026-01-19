@@ -28,6 +28,16 @@ export function Sidebar() {
           >
             album
           </a>
+          <a
+            href="/map"
+            className={`text-sm font-semibold text-black transition-opacity ${
+              pathname === "/map"
+                ? "opacity-100"
+                : "opacity-50 hover:opacity-100"
+            }`}
+          >
+            map
+          </a>
         </nav>
       </div>
     </aside>

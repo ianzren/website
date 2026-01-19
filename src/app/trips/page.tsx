@@ -4,7 +4,7 @@ export default function TripsPage() {
   return (
     <main className="flex-1 max-w-3xl mx-auto">
       <div className="mb-16">
-        <h1 className="mb-8">Photo Album</h1>
+        <h1 className="mb-8">a life well lived</h1>
       </div>
 
       <div className="mb-24 w-full h-px bg-gray-200" />
@@ -46,13 +46,13 @@ export default function TripsPage() {
               src: "https://res.cloudinary.com/dutaw2j5h/image/upload/v1768779561/IMG_6319_zpr63a.jpg",
             },
             {
-              src: "https://res.cloudinary.com/dutaw2j5h/image/upload/v1768779562/IMG_6313_i5rxaj.jpg",
-            },
-            {
               src: "https://res.cloudinary.com/dutaw2j5h/image/upload/v1768779562/IMG_6292_vokhjf.jpg",
             },
             {
               src: "https://res.cloudinary.com/dutaw2j5h/image/upload/v1768779561/IMG_6333_euz8dv.jpg",
+            },
+            {
+              src: "https://res.cloudinary.com/dutaw2j5h/image/upload/v1768779562/IMG_6313_i5rxaj.jpg",
             },
             {
               src: "https://res.cloudinary.com/dutaw2j5h/image/upload/v1768779562/IMG_6321_nx3jjm.jpg",
