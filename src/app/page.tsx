@@ -11,14 +11,14 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="mb-24 w-full h-px bg-gray-200" />
+      <div className="mb-16 w-full h-px bg-gray-200" />
 
-      <div className="space-y-20">
+      <div className="space-y-12">
         <Section
           title="currently"
           items={[
             "full-stack engineer at hived",
-            "builder and maintainer of a few open-source projects (...... soon)",
+            "builder and maintainer of a few open-source projects (coming soon)",
           ]}
         />
 
@@ -26,10 +26,10 @@ export default function Home() {
           title="previously"
           items={[
             "full stack engineer at terra (yc21)",
-            "interned at elliot investment management",
-            "interned at img arena",
+            "intern at elliot investment management",
+            "intern at img arena",
             "founding team at foodllama",
-            "studied computing at imperial college london",
+            "computing at imperial college london",
           ]}
         />
       </div>

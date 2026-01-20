@@ -19,9 +19,9 @@ export function Sidebar() {
             home
           </a>
           <a
-            href="/trips"
+            href="/album"
             className={`text-sm font-semibold text-black transition-opacity ${
-              pathname === "/trips"
+              pathname === "/album"
                 ? "opacity-100"
                 : "opacity-50 hover:opacity-100"
             }`}
