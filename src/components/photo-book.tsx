@@ -119,6 +119,7 @@ export function PhotoBook({ photos }: PhotoBookProps) {
                 fill
                 style={{ objectFit: "contain" }}
                 sizes="(max-width: 768px) 50vw, 33vw"
+                loading="eager"
               />
             </div>
           ))}
